@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Log in/Change user" />
+        <item
+            android:id="@+id/nav_signup"
+            android:icon="@drawable/ic_signup"
+            android:title="Sign up" />
+        <item
+            android:id="@+id/nav_newacc"
+            android:icon="@drawable/ic_new_account"
+            android:title="New account" />
+        <item
+            android:id="@+id/nav_newcard"
+            android:icon="@drawable/ic_new_card"
+            android:title="New debit card" />
+        <item
+            android:id="@+id/nav_depwit"
+            android:icon="@drawable/ic_deposit_withdraw"
+            android:title="Deposit/Withdraw" />
+        <item
+            android:id="@+id/nav_newtra"
+            android:icon="@drawable/ic_new_transaction"
+            android:title="New transfer" />
+        <item
+            android:id="@+id/nav_newpay"
+            android:icon="@drawable/ic_new_payment"
+            android:title="New payment" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_transaction_history"
+            android:title="Transaction history" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_manageusers"
+            android:icon="@drawable/ic_admin_settings"
+            android:title="Manage users and accounts" />
+        <item
+            android:id="@+id/nav_modifyusers"
+            android:icon="@drawable/ic_modify_users"
+            android:title="Modify user details" />
+        <item
+            android:id="@+id/nav_userlist"
+            android:icon="@drawable/ic_user_list"
+            android:title="User list" />
+    </group>
+
+</menu>
